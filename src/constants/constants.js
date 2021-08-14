@@ -44,3 +44,50 @@ export const TimeLineData = [
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
 ];
+
+
+  /* Make Sure to include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
+
+export const softwareSkills = [
+  {
+    skillName: "html-5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "css3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "sass",
+    fontAwesomeClassname: "fab fa-sass"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "reactjs",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "nodejs",
+    fontAwesomeClassname: "fab fa-node"
+  },
+  {
+    skillName: "mongodb",
+    fontAwesomeClassname: "fab fa-envira"
+  },
+  {
+    skillName: "npm",
+    fontAwesomeClassname: "fab fa-npm"
+  },
+  {
+    skillName: "firebase",
+    fontAwesomeClassname: "fas fa-fire"
+  },
+  {
+    skillName: "git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  }
+];
