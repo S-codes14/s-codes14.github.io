@@ -26,9 +26,7 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -39,11 +37,10 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewSkills && (
+          
             <li>
-              <a href="#skills">Skills</a>
+              <a href="blog-s-codes14.netllify.app">Blog</a>
             </li>
-          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>

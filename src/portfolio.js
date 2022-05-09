@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Sibongumusa Lungelo",
-  title: "Sibongumusa",
+  username: "S-codes14",
+  title: "S-codes14 🚀",
   subTitle: emoji(
-    "A developer who loves to transform ideas into reality using code. The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways: When the responsibility for your growth, career and learning sits 100% on your own shoulders, you also completely own your wins."
+    "- Just an ordinary developer who loves to transform ideas into reality using code.😁"
   ),
   // resumeLink:
   //   "",
@@ -23,10 +23,10 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/S-codes14",
-  linkedin: "https://www.linkedin.com/in/sibongumusa-lungelo-28268220a/",
+  linkedin: "https://www.linkedin.com/in/s-codes14/",
   gmail: "smlmnguni14@gmail.com",
-  instagram: "https://www.instagram.com/s.codes14/",
-  facebook: "https://www.facebook.com/sbongumusa.sbongumusa.5/",
+  instagram: "https://www.instagram.com/s_codes14/",
+  facebook: "https://www.facebook.com/s.codes14/",
   twitter: "https://twitter.com/s_codes14",
   // stackoverflow: "https://stackoverflow.com/users/15496696/sibongumusa-lungelo",
   // upwork: "https://www.upwork.com/freelancers/~013f1fd3a5fd8cb440",
@@ -37,26 +37,9 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ etc."
-    ),
-    emoji(
-      "⚡ Quick to learn new technologies"
-    ),
-    emoji(
-      "⚡ Effective problem solving skills that can be used in the work place"
-    ),
-    emoji(
-      "⚡ other essential/recommended/optional web development skills are: Web page animation, Web development expertise, Web Design, Front-end web languages, Website creation, Web App Development, Website development, Web development technologies."
-    )
-  ],
+  title: "I just code 💻",
+  subTitle: "",
+ 
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -312,10 +295,10 @@ const talkSection = {
 
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+27 729846089",
+  number: "",
   email_address: "smlmnguni14@gmail.com"
 };
 

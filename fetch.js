@@ -44,7 +44,7 @@ var data = JSON.stringify({
       }
     }
 }
-`
+`,
 });
 const default_options = {
   hostname: "api.github.com",
@@ -53,11 +53,11 @@ const default_options = {
   method: "POST",
   headers: {
     Authorization: `Bearer ${GITHUB_TOKEN}`,
-    "User-Agent": "Node"
-  }
+    "User-Agent": "Node",
+  },
 };
 
-const req = https.request(default_options, res => {
+const req = https.request(default_options, (res) => {
   let data = "";
 
   console.log(`statusCode: ${res.statusCode}`);
@@ -65,7 +65,7 @@ const req = https.request(default_options, res => {
     throw "The request to Github didn't suceed. Maybe check Github Token?";
   }
 
-  res.on("data", d => {
+  res.on("data", (d) => {
     data += d;
   });
   res.on("end", () => {
@@ -76,7 +76,7 @@ const req = https.request(default_options, res => {
   });
 });
 
-req.on("error", error => {
+req.on("error", (error) => {
   throw error;
 });
 
