@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
-import GitHubCalendar from "react-github-calendar";
+// import GitHubCalendar from "react-github-calendar";
 import "./Project.css";
 import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
@@ -56,13 +56,13 @@ export default function Projects() {
               );
             })}
           </div>
-          <GitHubCalendar
+          {/* <GitHubCalendar
         username="s-codes14"
         blockSize={15}
         blockMargin={5}
         color="#0778e8"
         fontSize={16}
-      />
+      /> */}
           <Button
             text={"All Projects"}
             className="project-button"

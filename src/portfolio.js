@@ -124,6 +124,30 @@ const educationInfo = {
   ]
 };
 
+
+const myStory = [
+  {
+    title: "",
+  content: "- The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways. Here’s my story and what I learned. -"
+},
+{
+  title: "# Getting into development",
+content: "Ever since I was a kid I was fascinated with technology.During High School, my interest in development really took off but I also dreamed about launching my own business.That’s why I began to teach myself web design by watching youtube videos. As I continued I got even more intrested so I also explored backend then mobile..."
+},
+{
+  title: "# I dont have a degree and I am not intrested in one",
+content: "Like any teenager, I started thinking about my life post-high school from about the age of 13. I had quite strong feelings against studying, especially because I feel like I am making some sort of progress in life already. On the other hand, however, society says have a university degree to get anywhere in life but I don't want one it is probably because of this tiny, stubborn spark of “I’ll show you” deep within me. However, I also felt that I had already learned and experienced quite a lot on my own and many traditional courses in programming seemed like they would cover what I already knew. I am worried that I would be bored and then quit"
+},
+{
+  title: "# How I leveled up my programming",
+content: "Every new project and endeavour shows me the gaps in my skill set. I decided to push really hard to fill them with online courses on sites like freeCodeCamp. I kept building small apps to practice and know im planning to make youtube videos."
+},
+{
+  title: "# Dealing with Imposter Syndrome",
+content: "This is probably one of the biggest things that I had to face, I feel as though everything I know is “fake” or less valuable in some way: I experience extreme imposter syndrome symptoms. I felt like im not qualified to contribute and that anything I would say would be wrong."
+}
+]
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -323,5 +347,6 @@ export {
   blogSection,
   talkSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  myStory
 };

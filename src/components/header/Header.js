@@ -39,7 +39,7 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           
             <li>
-              <a href="blog-s-codes14.netllify.app">Blog</a>
+              <a href="https://blog-s-codes14.netlify.app">Blog</a>
             </li>
           {viewExperience && (
             <li>

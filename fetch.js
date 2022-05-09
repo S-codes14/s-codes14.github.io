@@ -6,9 +6,9 @@ require("dotenv").config();
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 
-if (GITHUB_USERNAME === undefined) {
-  throw "Github Username was found to be undefined. Please set an Environment variable.";
-}
+// if (GITHUB_USERNAME === undefined) {
+//   throw "Github Username was found to be undefined. Please set an Environment variable.";
+// }
 
 console.log(`fetching profile for ${GITHUB_USERNAME}`);
 var data = JSON.stringify({
@@ -61,9 +61,9 @@ const req = https.request(default_options, (res) => {
   let data = "";
 
   console.log(`statusCode: ${res.statusCode}`);
-  if (res.statusCode != 200) {
-    throw "The request to Github didn't suceed. Maybe check Github Token?";
-  }
+  // if (res.statusCode != 200) {
+  //   throw "The request to Github didn't suceed. Maybe check Github Token?";
+  // }
 
   res.on("data", (d) => {
     data += d;
