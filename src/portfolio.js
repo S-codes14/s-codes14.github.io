@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Sibongumusa Lungelo",
-  title: "Sibongumusa",
+  username: "S-codes14",
+  title: "S-codes14 🚀",
   subTitle: emoji(
-    "A developer who loves to transform ideas into reality using code. The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways: When the responsibility for your growth, career and learning sits 100% on your own shoulders, you also completely own your wins."
+    "- Just an ordinary developer who loves to transform ideas into reality using code.😁"
   ),
   // resumeLink:
   //   "",
@@ -23,10 +23,10 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/S-codes14",
-  linkedin: "https://www.linkedin.com/in/sibongumusa-lungelo-28268220a/",
+  linkedin: "https://www.linkedin.com/in/s-codes14/",
   gmail: "smlmnguni14@gmail.com",
-  instagram: "https://www.instagram.com/s.codes14/",
-  facebook: "https://www.facebook.com/sbongumusa.sbongumusa.5/",
+  instagram: "https://www.instagram.com/s_codes14/",
+  facebook: "https://www.facebook.com/s.codes14/",
   twitter: "https://twitter.com/s_codes14",
   // stackoverflow: "https://stackoverflow.com/users/15496696/sibongumusa-lungelo",
   // upwork: "https://www.upwork.com/freelancers/~013f1fd3a5fd8cb440",
@@ -37,26 +37,9 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ etc."
-    ),
-    emoji(
-      "⚡ Quick to learn new technologies"
-    ),
-    emoji(
-      "⚡ Effective problem solving skills that can be used in the work place"
-    ),
-    emoji(
-      "⚡ other essential/recommended/optional web development skills are: Web page animation, Web development expertise, Web Design, Front-end web languages, Website creation, Web App Development, Website development, Web development technologies."
-    )
-  ],
+  title: "I just code 💻",
+  subTitle: "",
+ 
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -140,6 +123,30 @@ const educationInfo = {
     }
   ]
 };
+
+
+const myStory = [
+  {
+    title: "",
+  content: "- The path of a self-taught developer can be scary and intimidating. For me, getting into code turned out to be the right choice anyways. Here’s my story and what I learned. -"
+},
+{
+  title: "# Getting into development",
+content: "Ever since I was a kid I was fascinated with technology.During High School, my interest in development really took off but I also dreamed about launching my own business.That’s why I began to teach myself web design by watching youtube videos. As I continued I got even more intrested so I also explored backend then mobile..."
+},
+{
+  title: "# I dont have a degree and I am not intrested in one",
+content: "Like any teenager, I started thinking about my life post-high school from about the age of 13. I had quite strong feelings against studying, especially because I feel like I am making some sort of progress in life already. On the other hand, however, society says have a university degree to get anywhere in life but I don't want one it is probably because of this tiny, stubborn spark of “I’ll show you” deep within me. However, I also felt that I had already learned and experienced quite a lot on my own and many traditional courses in programming seemed like they would cover what I already knew. I am worried that I would be bored and then quit"
+},
+{
+  title: "# How I leveled up my programming",
+content: "Every new project and endeavour shows me the gaps in my skill set. I decided to push really hard to fill them with online courses on sites like freeCodeCamp. I kept building small apps to practice and know im planning to make youtube videos."
+},
+{
+  title: "# Dealing with Imposter Syndrome",
+content: "This is probably one of the biggest things that I had to face, I feel as though everything I know is “fake” or less valuable in some way: I experience extreme imposter syndrome symptoms. I felt like im not qualified to contribute and that anything I would say would be wrong."
+}
+]
 
 // Your top 3 proficient stacks/tech experience
 
@@ -312,10 +319,10 @@ const talkSection = {
 
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+27 729846089",
+  number: "",
   email_address: "smlmnguni14@gmail.com"
 };
 
@@ -340,5 +347,6 @@ export {
   blogSection,
   talkSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  myStory
 };

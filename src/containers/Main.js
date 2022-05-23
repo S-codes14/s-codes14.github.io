@@ -9,7 +9,7 @@ import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
+import Story from "./myStory";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
@@ -21,7 +21,7 @@ export default class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isDark:true
+      isDark: true
     };
   }
 
@@ -47,14 +47,8 @@ export default class Main extends Component {
           <Header />
           <Greeting />
           <Skills />
-          <StackProgress />
-          <Education />
-          <WorkExperience />
           <Projects />
-          <StartupProject />
-          <Achievement />
-          <Blogs />
-          <Talks />
+          <Story />
           <Twitter />
           <Profile />
           <Footer />
