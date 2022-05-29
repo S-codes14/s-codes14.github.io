@@ -1,5 +1,5 @@
 {
-  "name": "sibongumusalungelo",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,13 +14,13 @@
     "react-read-more-read-less": "^1.0.7",
     "react-reveal": "^1.2.2",
     "react-scripts": "^3.4.3",
-    "react-twitter-embed": "3.0.3",
-    "vanta": "^0.5.21"
+    "react-twitter-embed": "3.0.3"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
+    "start": "react-scripts start",
     "build": "node fetch.js && react-scripts build",
+    "fetch": "node fetch.js",
     "deploy": "gh-pages -b build -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
