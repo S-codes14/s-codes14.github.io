@@ -99,6 +99,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      {socialMediaLinks.tiktok ? (
+        <a
+          href={socialMediaLinks.tiktok}
+          className="icon-button gitlab"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-tiktok"></i>
+          <span></span>
+        </a>
+      ) : null}
 
       {socialMediaLinks.facebook ? (
         <a

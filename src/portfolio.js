@@ -32,6 +32,7 @@ const socialMediaLinks = {
   twitch: "https://www.twitch.tv/s_codes14",
   reddit: "https://www.reddit.com/user/S-codes14",
   discord: "https://discord.gg/tXcT79h3Xz",
+  tiktok: "https://tiktok.com/@s_codes14",
   // stackoverflow: "https://stackoverflow.com/users/15496696/sibongumusa-lungelo",
   // upwork: "https://www.upwork.com/freelancers/~013f1fd3a5fd8cb440",
   // Instagram and Twitter are also supported in the links!
