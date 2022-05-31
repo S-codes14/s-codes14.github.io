@@ -7,7 +7,51 @@ export default function socialMedia() {
     return null;
   }
   return (
-    <div className="social-media-div">
+    <div className="social-media-div">  
+    {socialMediaLinks.twitch ? (
+      <a
+        href={socialMediaLinks.twitch}
+        className="icon-button github"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-twitch"></i>
+        <span></span>
+      </a>
+    ) : null}
+    {socialMediaLinks.discord ? (
+      <a
+        href={socialMediaLinks.discord}
+        className="icon-button github"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-discord"></i>
+        <span></span>
+      </a>
+    ) : null}
+    {socialMediaLinks.youtube ? (
+      <a
+        href={socialMediaLinks.youtube}
+        className="icon-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-youtube"></i>
+        <span></span>
+      </a>
+    ) : null}
+    {socialMediaLinks.reddit ? (
+      <a
+        href={socialMediaLinks.reddit}
+        className="icon-button github"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-reddit"></i>
+        <span></span>
+      </a>
+    ) : null}
       {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}
@@ -39,7 +83,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-google"></i>
+          <i className="fas fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
@@ -107,7 +151,7 @@ export default function socialMedia() {
       {socialMediaLinks.stackoverflow ? (
         <a
           href={socialMediaLinks.stackoverflow}
-          className="icon-button stack-overflow"
+          className="icon-button"
           target="_blank"
           rel="noopener noreferrer"
         >

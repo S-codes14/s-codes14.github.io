@@ -28,6 +28,10 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/s_codes14/",
   facebook: "https://www.facebook.com/s.codes14/",
   twitter: "https://twitter.com/s_codes14",
+  youtube: "https://www.youtube.com/channel/UCx57o5yRPfeNOFoWbOF0J6Q",
+  twitch: "https://www.twitch.tv/s_codes14",
+  reddit: "https://www.reddit.com/user/S-codes14",
+  discord: "https://discord.gg/tXcT79h3Xz",
   // stackoverflow: "https://stackoverflow.com/users/15496696/sibongumusa-lungelo",
   // upwork: "https://www.upwork.com/freelancers/~013f1fd3a5fd8cb440",
   // Instagram and Twitter are also supported in the links!
