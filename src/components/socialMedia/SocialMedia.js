@@ -102,7 +102,7 @@ export default function socialMedia() {
       {socialMediaLinks.tiktok ? (
         <a
           href={socialMediaLinks.tiktok}
-          className="icon-button gitlab"
+          className="icon-button"
           target="_blank"
           rel="noopener noreferrer"
         >
